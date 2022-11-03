@@ -1,0 +1,26 @@
+# Plugin développer par Tweikow
+# https://github.com/Tweikow
+
+#==========================================================================================================#
+
+# Les variables utilisable:
+variables:
+  - "%player%" # Affiche votre pseudo
+  - "%online%" # Affiche le nombre de joueur connectés
+  - "%online_max%" # Affiche le nombre de joueur maximum que peu accueillir le serveur
+  - "%ping%" # Affiche votre latence
+  - "%nl%" # Saut de ligne
+
+#==========================================================================================================#
+
+tablist:
+  cooldown_reload: 5 # Saisissez le temps en secondes. Plus le chiffre est élevé moins sa lag
+  header: "&6SERVER NAME
+  %nl%"
+  footer: "
+  %nl%
+  &e&lBoutique: &7https://www.server.fr/shop/%nl%
+  &d&lDiscord: &7discord.gg/server/%nl%
+  %nl%
+  &eJoueur: &7%player%%nl%
+  &6Connectés: &7%online%/%online_max%"
